@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M.S.Suyo-Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" />
+  </head>
+  <body>
+    <div class="stars"></div>
+    <div class="constellations">
+      <div class="constellation constellation-1">
+        <div class="constellation-line"></div>
+      </div>
+      <div class="constellation constellation-2">
+        <div class="constellation-line"></div>
+      </div>
+      <div class="constellation constellation-3">
+        <div class="constellation-line"></div>
+      </div>
+    </div>
+
+    <div class="site-initials">MS.SUYO</div>
+
+    <div class="menu-group">
+      <div class="top-ribbon">
+        <button class="menu-ribbon" aria-label="Menu" aria-expanded="false" aria-controls="site-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 2.5 4h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="menu-panel" id="site-menu" aria-hidden="true">
+  <a href="#home">HOME</a>
+  <a href="#about-me">ABOUT ME</a>
+  <a href="#projects">PROJECTS</a>
+  <a href="#skills">SKILLS & CERTIFICATES</a>
+  <a href="#contact">CONTACT HER</a>
+
+  <div class="menu-divider"></div>
+
+  <a href="files/Suyo_Mariah_Stefanie_Curriculum_Vitae.pdf" download="Suyo_Mariah_Stefanie_Curriculum_Vitae.pdf" class="menu-cv-link">
+    <i class="bi bi-download" aria-hidden="true"></i>
+    <span>CURRICULUM VITAE</span>
+  </a>
+</div>
+  </div>
+
+    <section class="hero page-section" id="home">
+      <div class="content">
+        <h1>MARIAH<br /><span class="name-highlight">STEFANIE</span> SUYO</h1>
+        <p>Aspiring Cybersecurity Professional / Computer Science Student.</p>
+      </div>
+
+      <img class="card card1" src="images/card1.png" alt="Card 1" />
+      <img class="card card2" src="images/card2.jpg" alt="Card 2" />
+      <img class="card card3" src="images/card3.png" alt="Card 3" />
+      <img class="card card4" src="images/card4.jpg" alt="Card 4" />
+      <img class="card card5" src="images/card5.png" alt="Card 5" />
+      <img class="card card6" src="images/card6.png" alt="Card 6" />
+    </section>
+
+    <section class="about-me about-me-bg page-section" id="about-me">
+      <img class="bg-image bg-image-1" src="images/softbg3.jpg" alt="Decorative card" aria-hidden="true" />
+      <img class="bg-image bg-image-2" src="images/softbg1.jpg" alt="Decorative card" aria-hidden="true" />
+      <img class="bg-image bg-image-3" src="images/softbg2.jpg" alt="Decorative card" aria-hidden="true" />
+      <div class="left reveal profile-card">
+        <div class="profile-frame">
+          <img class="profile-image" src="images/profile.jpg" alt="Profile Image" />
+        </div>
+        <div class="profile-caption">
+          <p class="profile-name">MARIAH<br />STEFANIE SUYO</p>
+        </div>
+      </div>
+
+      <div class="right reveal">
+        <h1>ABOUT ME</h1>
+        <p>An aspiring cybersecurity professional<br> eager to gain practical knowledge and experiences in the field.<br>Driven to promote users and organizations by identifying<br>vulnerabilities and defending against malicious cyber threats. </p>
+
+        <div class="contact-info-list">
+          <button type="button" class="contact-info-item" data-copy="mariahstefanie.edu@gmail.com" aria-label="Copy email address">
+            <span class="contact-info-icon"><i class="bi bi-envelope-fill" aria-hidden="true"></i></span>
+            <span class="contact-info-text">mariahstefanie.edu@gmail.com</span>
+            <i class="bi bi-clipboard contact-info-action-icon" aria-hidden="true"></i>
+          </button>
+
+          <button type="button" class="contact-info-item" data-copy="+63 997 716 0333" aria-label="Copy phone number">
+            <span class="contact-info-icon"><i class="bi bi-telephone-fill" aria-hidden="true"></i></span>
+            <span class="contact-info-text">(+63) 997 716 0333</span>
+            <i class="bi bi-clipboard contact-info-action-icon" aria-hidden="true"></i>
+          </button>
+
+          <a href="files/Suyo_Mariah_Stefanie_Curriculum_Vitae.pdf" download="Suyo_Mariah_Stefanie_Curriculum_Vitae.pdf" class="contact-info-item">
+            <span class="contact-info-icon"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i></span>
+            <span class="contact-info-text">Curriculum Vitae</span>
+            <i class="bi bi-download contact-info-action-icon" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-showcase page-section" id="projects">
+  <div class="projects-container reveal">
+    <div class="projects-title">
+      <h2>MY PROJECTS</h2>
+      <p>Showcasing my skills and experience through my works.</p>
+    </div>
+
+    <article class="project-card project-1 reveal-expand">
+      <a
+        href="projects/project-hotel.html"
+        class="project-link"
+        data-project-trigger
+        data-title="Hotel Management System"
+        data-image="images/project1.png"
+        data-description="A comprehensive desktop application designed to streamline hotel administration, guest check-ins, room availability tracking, and billing operations. Built with secure data-handling practices to protect customer records."
+        data-tags="Java"
+        data-github="https://github.com/yourusername/hotel-management-system"
+        data-page="projects/project-hotel.html"
+      >
+        <img class="project-image" src="images/project1.png" alt="Hotel Management System" />
+      </a>
+      <h3>Hotel Management<br> System</h3>
+    </article>
+
+    <article class="project-card project-2 reveal-expand">
+      <a
+        href="projects/project-cafe.html"
+        class="project-link"
+        data-project-trigger
+        data-title="Cafe Management System"
+        data-image="images/project2.png"
+        data-description="The Café Management System is a role-based application that digitalizes the café ordering process, allowing customers to place orders, staff to manage and track order statuses, delivery personnel to handle deliveries, and managers to oversee operations. The system improves efficiency, reduces errors, and ensures faster, more organized service for both staff and customers."
+        data-tags="Java,OOP"
+        data-github="https://github.com/yourusername/cafe-management-system"
+        data-page="projects/project-cafe.html"
+      >
+        <img class="project-image" src="images/project2.png" alt="Cafe Management System" />
+      </a>
+      <h3>Cafe Management<br> System</h3>
+    </article>
+
+    <article class="project-card project-3 reveal-expand">
+      <a
+        href="projects/project-pibblify.html"
+        class="project-link"
+        data-project-trigger
+        data-title="Pibblify"
+        data-image="images/project3.png"
+        data-description="This project demonstrates how fundamental Data Structures and Algorithms (DSA) can be applied in a real-world Music Streaming Application. The system simulates common music app features such as song management, artist organization, playback tracking, song queuing, and genre categorization using Arrays, Linked Lists, Stacks, Queues, and Trees."
+        data-tags="Java"
+        data-github="https://github.com/kharl-llanes/Finals-Datastruc"
+        data-page="projects/project-pibblify.html"
+      >
+        <img class="project-image" src="images/project3.png" alt="Pibblify" />
+      </a>
+      <h3>Pibblify</h3>
+    </article>
+
+<article class="project-card project-4 reveal-expand">
+  <a href="projects/project-more.html" class="project-link">
+    <div class="project-image-wrapper">
+      <div class="project-plus-icon" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg>
+      </div>
+      <img class="project-image" src="images/project4.png" alt="More Projects" />
+    </div>
+  </a>
+  <h3>More Projects</h3>
+</article>
+  </div>
+</section>
+
+    <section class="skills-certs page-section" id="skills">
+  <h2 class="skills-certs-heading reveal">SKILLS &amp; CERTIFICATES</h2>
+
+  <div class="skills-certs-grid">
+    <div class="skills-col reveal">
+      <ul class="skills-list">
+        <li><i class="bi bi-filetype-java skill-icon" aria-hidden="true"></i>JAVA</li>
+        <li><i class="bi bi-filetype-py skill-icon" aria-hidden="true"></i>PYTHON</li>
+        <li><i class="bi bi-filetype-sql skill-icon" aria-hidden="true"></i>SQL/MySQL</li>
+        <li><i class="bi bi-terminal-fill skill-icon" aria-hidden="true"></i> LINUX</li>
+        <li><i class="bi bi-palette-fill skill-icon" aria-hidden="true"></i>UI/UX</li>
+      </ul>
+    </div>
+
+    <div class="skills-divider" aria-hidden="true"></div>
+
+    <div class="certs-col reveal">
+      <div class="certs-list">
+        
+        <figure class="cert-card reveal-expand">
+          <a href="https://tryhackme.com/certificate/THM-JZBNPQFGYG" target="_blank" rel="noopener noreferrer" class="cert-link">
+            <img class="cert-image" src="images/cert1.png" alt="Pre-Security certificate" />
+          </a>
+          <figcaption>Pre-Security</figcaption>
+        </figure>
+
+        <figure class="cert-card cert-card-offset reveal-expand">
+          <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/679ed86943030d7ba34b76ec5c611e6217cd4d72?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa" target="_blank" rel="noopener noreferrer" class="cert-link">
+            <img class="cert-image" src="images/cert2.png" alt="AWS Cloud Practitioner certificate" />
+          </a>
+          <figcaption>AWS Cloud Practitioner</figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="contact-showcase reveal page-section" id="contact">
+      <div class="contact-overlay">
+        <h1>
+          NEED SOMETHING?<br />
+          <span>CONTACT HER NOW.</span>
+        </h1>
+        <div class="contact-actions">
+        <a href="https://www.linkedin.com/in/mariah-stefanie-suyo/" target="_blank" rel="noopener noreferrer" class="linkedin-icon" aria-label="LinkedIn profile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.71-.521-1.248-1.342-1.248-.821 0-1.358.538-1.358 1.248 0 .694.52 1.248 1.327 1.248h.015zm4.908 8.212V9.359c0-.216.016-.432.08-.586.175-.432.574-.879 1.243-.879.877 0 1.228.663 1.228 1.635v4.865h2.401V9.25c0-2.22-1.184-3.248-2.764-3.248-1.276 0-1.845.7-2.165 1.192h.016V6.169H6.542c.03.7 0 7.225 0 7.225h2.401z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="github-icon" aria-label="GitHub profile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+        <a href="contact.html" class="contact-btn">LEAVE A MESSAGE</a>
+      </div>
+      </div>
+
+      <div class="contact-footer-bar">
+        <button type="button" class="contact-footer-item" data-copy="mariahstefanie.edu@gmail.com" aria-label="Copy email address">
+          <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+          <span>mariahstefanie.edu@gmail.com</span>
+        </button>
+        <span class="contact-footer-dot" aria-hidden="true">・</span>
+        <button type="button" class="contact-footer-item" data-copy="+63 997 716 0333" aria-label="Copy phone number">
+          <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+          <span>(+63) 997 716 0333</span>
+        </button>
+      </div>
+    </section>
+
+    <div class="project-modal" id="projectModal" aria-hidden="true">
+      <div class="project-modal-backdrop" data-modal-close></div>
+
+      <div class="project-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="projectModalTitle">
+        <button type="button" class="project-modal-close" data-modal-close aria-label="Close">
+          <i class="bi bi-x-lg" aria-hidden="true"></i>
+        </button>
+
+        <div class="project-modal-image-wrapper" id="projectModalImageWrapper">
+          <img class="project-modal-image" id="projectModalImage" src="" alt="" />
+        </div>
+
+        <div class="project-modal-content">
+          <h1 class="project-modal-title" id="projectModalTitle"></h1>
+          <p class="project-modal-description" id="projectModalDescription"></p>
+          <div class="project-modal-tags" id="projectModalTags"></div>
+          <a class="github-btn" id="projectModalGithub" href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github" aria-hidden="true"></i> View on GitHub
+          </a>
+        </div>
+
+        <a class="project-modal-more" id="projectModalMore" href="#">More Details</a>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
